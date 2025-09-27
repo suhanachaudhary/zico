@@ -1,6 +1,6 @@
 
 import { FaFacebookF, FaTwitter, FaPinterestP, FaLinkedinIn } from "react-icons/fa";
-
+import { Link } from "react-router-dom";
 import { FaPhoneAlt } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { FaMapMarkerAlt } from "react-icons/fa";
@@ -12,11 +12,8 @@ export default function Footer() {
 
                 <div>
                     <div className="flex items-center space-x-2 mb-4">
-                        <div className="relative">
-                            <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-md transform rotate-12"></div>
-                            <div className="absolute top-0 left-0 w-8 h-8 bg-gradient-to-br from-cyan-400 to-blue-500 rounded-md opacity-80"></div>
-                        </div>
-                        <h2 className="text-2xl font-bold text-white">Zico</h2>
+                        <img className="h-22 w-22" src="/images/logo1.png" />
+                        <span className="text-xl text-orange-400" style={{ marginLeft: "-15px" }}>Hastinapur Studio</span>
                     </div>
                     <p className="text-sm leading-relaxed">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -62,12 +59,12 @@ export default function Footer() {
                 <div>
                     <h3 className="text-white font-semibold mb-4">Useful Links</h3>
                     <ul className="space-y-2 text-sm">
-                        <li><a href="#" className="hover:text-[#D39D55]">Home</a></li>
-                        <li><a href="#" className="hover:text-[#D39D55]">About</a></li>
-                        <li><a href="#" className="hover:text-[#D39D55]">Works</a></li>
+                        <li><Link to="/" className="hover:text-[#D39D55]">Home</Link></li>
+                        <li><Link to="/about" className="hover:text-[#D39D55]">About</Link></li>
+                        <li><Link to="/work" className="hover:text-[#D39D55]">Works</Link></li>
                         <li><a href="#" className="hover:text-[#D39D55]">Videos</a></li>
                         <li><a href="#" className="hover:text-[#D39D55]">Blog</a></li>
-                        <li><a href="#" className="hover:text-[#D39D55]">Contact</a></li>
+                        <li><Link to="/contact" className="hover:text-[#D39D55]">Contact</Link></li>
                     </ul>
                 </div>
 
@@ -78,7 +75,7 @@ export default function Footer() {
                         <FaPhoneAlt className="text-white mt-1" />
                         <div>
                             <p className="font-semibold text-white">Phone:</p>
-                            <p className="text-gray-300">+882-569-756</p>
+                            <p className="text-gray-300">+91 9286182820</p>
                         </div>
                     </div>
 
@@ -86,7 +83,7 @@ export default function Footer() {
                         <HiOutlineMail className="text-white mt-1" />
                         <div>
                             <p className="font-semibold text-white">Email:</p>
-                            <p className="text-gray-300">info@zico.com</p>
+                            <p className="text-gray-300">Hastinapurstudio@gmail.com</p>
                         </div>
                     </div>
 
@@ -94,14 +91,15 @@ export default function Footer() {
                         <FaMapMarkerAlt className="text-white mt-1" />
                         <div>
                             <p className="font-semibold text-white">Address:</p>
-                            <p className="text-gray-300">3254-425 NW-2nd Ave, Miami USA</p>
+                            <p className="text-gray-300">H-10/ RAGHAV PURAM
+                                Saharanpur, 247001, India</p>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div className="border-t border-gray-800 mt-10 pt-4 text-center text-sm text-gray-400">
-                © Zico is Proudly Owned by <span className="text-[#D39D55]">EnvyTheme</span>
+                © Hastinapur Studio is Proudly Owned by <span className="text-[#D39D55]">EnvyTheme</span>
             </div>
         </footer>
     );
