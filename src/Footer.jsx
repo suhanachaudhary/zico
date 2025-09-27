@@ -13,7 +13,7 @@ export default function Footer() {
                 <div>
                     <div className="flex items-center space-x-2 mb-4">
                         <img className="h-22 w-22" src="/images/logo1.png" />
-                        <span className="text-xl text-orange-400" style={{ marginLeft: "-15px" }}>Hastinapur Studio</span>
+                        <span className="text-xl text-[#D39D55]" style={{ marginLeft: "-15px" }}>Hastinapur Studio</span>
                     </div>
                     <p className="text-sm leading-relaxed">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

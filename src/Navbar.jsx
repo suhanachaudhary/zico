@@ -32,7 +32,7 @@ const Navbar = () => {
                         <div className="flex items-center space-x-1">
                             <img className="h-22 w-22" src="/images/logo1.png" alt="logo" />
                             <span
-                                className="text-xl text-orange-400"
+                                className="text-xl text-[#D39D55]"
                                 style={{ marginLeft: "-15px" }}
                             >
                                 Hastinapur Studio
