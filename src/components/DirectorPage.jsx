@@ -6,22 +6,22 @@ const teamMembers = [
     {
         name: "Adlock Prince",
         role: "Director",
-        image: "https://images.pexels.com/photos/1707820/pexels-photo-1707820.jpeg",
+        image: "/images/contact/contact/c2.JPG",
     },
     {
         name: "Tom Henry",
         role: "Sub. Director",
-        image: "https://images.pexels.com/photos/532220/pexels-photo-532220.jpeg",
+        image: "/images/contact/contact/c2.JPG",
     },
     {
         name: "Mic John",
         role: "Actor",
-        image: "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg",
+        image: "/images/contact/contact/c2.JPG",
     },
     {
         name: "John Punk",
         role: "Manager",
-        image: "https://images.pexels.com/photos/936229/pexels-photo-936229.jpeg",
+        image: "/images/contact/contact/c2.JPG",
     },
 ];
 
@@ -30,7 +30,7 @@ const DirectorsPage = () => {
         <div className="bg-[#111] text-white px-6 py-6">
 
             <div className="text-center mb-12">
-                <p className="text-[#D39D55] mb-2 text-sm uppercase">Our Team</p>
+                <p className="text-[#D39D55] mb-2 text-lg uppercase">Our Team</p>
                 <h1 className="md:text-5xl text-3xl mt-3 font-semibold uppercase">
                     Directors of Zico
                 </h1>

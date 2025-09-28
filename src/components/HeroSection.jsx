@@ -7,19 +7,19 @@ const HeroSlider = () => {
     const slides = [
         {
             id: 1,
-            image: 'https://media.istockphoto.com/id/528831127/photo/tranquility.jpg?s=612x612&w=0&k=20&c=yRDG4dybg67FgUgAu3z75TISQC8iiuhbPUTPBAcgHqQ=',
+            image: '/images/home/Home/h1.png',
             title: 'GET THE BEST MOVIES HERE',
             subtitle: 'Zico Is High Quality Production House'
         },
         {
             id: 2,
-            image: 'https://media.istockphoto.com/id/1334575795/photo/woman-hugging-a-big-tree-in-the-outdoor-forest-ecology-and-nature-protect-environment-and.jpg?s=612x612&w=0&k=20&c=nN2OfQLN53qtFqqjrtUjmy6-sUYkTpBFqwexDafSobU=',
+            image: "/images/home/Home/h2.jpg",
             title: 'PREMIUM CONTENT CREATION',
             subtitle: 'Professional Video Production Services'
         },
         {
             id: 3,
-            image: 'https://media.istockphoto.com/id/2220009807/photo/young-woman-taking-a-selfie-during-exploration-at-forest.jpg?s=612x612&w=0&k=20&c=ORHr9_KTSgAh_YziQko5Lc7Izfa9lZS6guMDGGmwab4=',
+            image: '/images/home/Home/h4.JPG',
             title: 'CINEMATIC EXCELLENCE',
             subtitle: 'Experience The Art of Storytelling'
         }
@@ -98,7 +98,7 @@ const HeroSection = () => {
     return (
         <div className="min-h-screen">
             <HeroSlider />
-            <img src="/images/trust.PNG" alt="trust section" />
+            <img src="/images/trust.PNG" className='w-full' alt="trust section" />
         </div>
     );
 };

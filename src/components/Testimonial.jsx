@@ -42,7 +42,7 @@ const Testimonial = () => {
             <div className="absolute inset-0 bg-black bg-opacity-70"></div>
 
             <div className="relative z-10 max-w-3xl mx-auto text-center">
-                <p className="text-[#D39D55] uppercase text-sm tracking-widest">
+                <p className="text-[#D39D55] uppercase text-lg tracking-widest">
                     Testimonial
                 </p>
                 <h2 className="text-3xl md:text-5xl font-bold uppercase mt-2 mb-8">

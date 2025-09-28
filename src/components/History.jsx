@@ -9,39 +9,39 @@ const History = () => {
         1980: {
             title: "Let’s make great things 1980!",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-            image: "/images/history.jpeg",
+            image: "/images/about/about/a1.png",
         },
         1995: {
             title: "Big milestones in 1995!",
             text: "This is where your 1995 history content goes.",
-            image: "/images/history.jpeg",
+            image: "/images/work/work/w6.PNG",
         },
         2000: {
             title: "Creative expansion in 2000!",
             text: "This is where your 2000 history content goes.",
-            image: "/images/history.jpeg",
+            image: "/images/work/work/w7.PNG",
         },
         2005: {
             title: "Innovation in 2005!",
             text: "This is where your 2005 history content goes.",
-            image: "/images/history.jpeg",
+            image: "/images/work/work/w8.PNG",
         },
         2015: {
             title: "Modern era in 2015!",
             text: "This is where your 2015 history content goes.",
-            image: "/images/history.jpeg",
+            image: "/images/work/work/w9.PNG",
         },
     };
 
     return (
         <div className="relative bg-black bg-opacity-80 text-white py-20 px-6 md:px-20 font-sans">
 
-            <div className="absolute inset-0 bg-[url('/images/history.jpeg')] bg-cover bg-center opacity-30"></div>
+            <div className="absolute inset-0 bg-[url('/images/work/work/w6.PNG')] bg-cover bg-center opacity-30"></div>
 
             <div className="relative z-10 text-center mb-12">
 
                 <div className="text-center mb-8">
-                    <p className="text-[#D39D55] mt-4 mb-2 text-sm uppercase">History</p>
+                    <p className="text-[#D39D55] mt-4 mb-2 text-xl uppercase">History</p>
                     <h1 className="md:text-5xl text-3xl mt-3 font-semibold uppercase">Our History</h1>
                 </div>
 
@@ -89,7 +89,7 @@ const History = () => {
                         </div>
                         <div>
                             <PenTool className="w-10 h-10 mb-2" />
-                            <h4 className="font-semibold text-[2xl]">Creative Direction</h4>
+                            <h4 className="font-semibold text-2xl">Creative Direction</h4>
                             <p className="text-gray-400 text-[16px]">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                             </p>

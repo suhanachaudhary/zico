@@ -5,14 +5,14 @@ const VideoSection = () => {
     return (
         <div className="bg-[#111] text-white py-20">
             <div className="text-center mb-12">
-                <p className="text-[#D39D55] mt-4 mb-2 text-sm uppercase">Watch Video</p>
-                <h1 className="md:text-5xl text-3xl mt-3 font-semibold uppercase">ZICO HIGH QUALITY VIDEO</h1>
+                <p className="text-[#D39D55] mt-4 mb-2 text-lg uppercase">Watch Video</p>
+                <h1 className="md:text-5xl text-3xl mt-3 font-semibold uppercase">HASTINAPUR STUDIO HIGH QUALITY VIDEO</h1>
             </div>
 
             <div className="flex justify-center items-end">
                 <div className="relative w-[380px] h-[400px] group">
                     <img
-                        src="/images/forest1.jpg"
+                        src="/images/work/work/w2.PNG"
                         alt="left thumbnail"
                         className="w-full h-full object-cover"
                     />
@@ -25,7 +25,7 @@ const VideoSection = () => {
 
                 <div className="relative flex-1 max-w-[750px] h-[550px] group">
                     <img
-                        src="/images/forest1.jpg"
+                        src="/images/about/about/a3.PNG"
                         alt="main video"
                         className="w-full h-full object-cover"
                     />
@@ -38,7 +38,7 @@ const VideoSection = () => {
 
                 <div className="relative w-[380px] h-[400px] group">
                     <img
-                        src="/images/forest1.jpg"
+                        src="/images/about/about/a5.PNG"
                         alt="right thumbnail"
                         className="w-full h-full object-cover"
                     />

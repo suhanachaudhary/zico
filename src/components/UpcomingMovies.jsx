@@ -6,17 +6,17 @@ const videos = [
     {
         id: 1,
         src: "https://www.w3schools.com/html/mov_bbb.mp4",
-        thumbnail: "https://picsum.photos/id/237/800/400", // fallback thumb
+        thumbnail: "/images/home/Home/h1.png",
     },
     {
         id: 2,
         src: "https://www.w3schools.com/html/movie.mp4",
-        thumbnail: "https://picsum.photos/id/1003/800/400",
+        thumbnail: "/images/about/about/a1.png",
     },
     {
         id: 3,
         src: "https://www.w3schools.com/html/mov_bbb.mp4",
-        thumbnail: "https://picsum.photos/id/1015/800/400",
+        thumbnail: "/images/about/about/a3.PNG",
     },
 ];
 
@@ -34,7 +34,7 @@ export default function UpcomingMovies() {
     return (
         <div className="bg-black text-white min-h-screen py-20 px-5">
             <div className="text-center mb-8">
-                <p className="text-[#D39D55] mt-4 mb-2 text-sm uppercase">This Week</p>
+                <p className="text-[#D39D55] mt-4 mb-2 text-xl uppercase">This Week</p>
                 <h1 className="md:text-5xl text-3xl mt-3 font-semibold uppercase">Our Upcoming Movies</h1>
             </div>
 

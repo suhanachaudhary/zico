@@ -8,7 +8,7 @@ const blogs = [
         description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
         image:
-            "https://images.pexels.com/photos/375885/pexels-photo-375885.jpeg",
+            "/images/about/about/a3.PNG",
     },
     {
         date: "18 June 2025",
@@ -16,7 +16,7 @@ const blogs = [
         description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
         image:
-            "https://images.pexels.com/photos/275977/pexels-photo-275977.jpeg",
+            "/images/about/about/a4.PNG",
     },
     {
         date: "19 June 2025",
@@ -24,7 +24,7 @@ const blogs = [
         description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
         image:
-            "https://images.pexels.com/photos/799137/pexels-photo-799137.jpeg",
+            "/images/about/about/a5.PNG",
     },
 ];
 
@@ -32,7 +32,7 @@ const BlogSection = () => {
     return (
         <section className="bg-[#111] text-white py-20 px-6 md:px-16">
             <div className="text-center mb-12">
-                <p className="text-[#D39D55] uppercase text-sm tracking-widest">
+                <p className="text-[#D39D55] uppercase text-xl tracking-widest">
                     Our Blog
                 </p>
                 <h2 className="text-3xl md:text-5xl font-bold uppercase mt-2">
@@ -53,12 +53,12 @@ const BlogSection = () => {
                             <h3 className="text-lg font-bold mt-2 mb-3 hover:text-[#D39D55] cursor-pointer transition">
                                 {blog.title}
                             </h3>
-                            <p className="text-gray-300 text-sm leading-relaxed mb-4">
+                            <p className="text-gray-300 text-lg leading-relaxed mb-4">
                                 {blog.description}
                             </p>
                             <a
                                 href="#"
-                                className="text-white font-semibold hover:underline"
+                                className="text-white text-lg font-semibold hover:underline"
                             >
                                 Read More
                             </a>

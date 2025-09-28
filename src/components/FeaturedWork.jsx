@@ -4,25 +4,25 @@ const galleryItems = [
         id: 1,
         title: "MY DREAM STRANGER",
         subtitle: "Music Video",
-        image: "https://picsum.photos/id/237/600/400",
+        image: "/images/about/about/a4.PNG",
     },
     {
         id: 2,
         title: "BACK TO YOU",
         subtitle: "Advertising Music Video",
-        image: "https://picsum.photos/id/238/600/400",
+        image: "/images/about/about/a5.PNG",
     },
     {
         id: 3,
         title: "NIGHT BEATS",
         subtitle: "DJ Music Show",
-        image: "https://picsum.photos/id/239/600/400",
+        image: "/images/work/work/w1.png",
     },
     {
         id: 4,
         title: "WAVES OF DREAMS",
         subtitle: "Fantasy Music Video",
-        image: "https://picsum.photos/id/240/600/400",
+        image: "/images/work/work/w4.PNG",
     },
 ];
 
@@ -31,7 +31,7 @@ export default function FeaturedWork() {
         <div className="bg-black/90 text-white min-h-screen py-10">
 
             <div className="text-center mb-8">
-                <p className="text-[#D39D55] mt-4 mb-2 text-sm uppercase">Our Work</p>
+                <p className="text-[#D39D55] mt-4 mb-2 text-xl uppercase">Our Work</p>
                 <h1 className="md:text-5xl text-3xl mt-3 font-semibold uppercase">Featured Work</h1>
             </div>
 
