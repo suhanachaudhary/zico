@@ -7,19 +7,19 @@ const HeroSlider = () => {
     const slides = [
         {
             id: 1,
-            image: '/images/home/Home/h1.png',
+            image: '/images/home/Home/h4.JPG',
             title: 'GET THE BEST MOVIES HERE',
             subtitle: 'Zico Is High Quality Production House'
         },
         {
             id: 2,
-            image: "/images/home/Home/h2.jpg",
+            image: "/images/home/Home/h3.PNG",
             title: 'PREMIUM CONTENT CREATION',
             subtitle: 'Professional Video Production Services'
         },
         {
             id: 3,
-            image: '/images/home/Home/h4.JPG',
+            image: '/images/home/Home/h1.png',
             title: 'CINEMATIC EXCELLENCE',
             subtitle: 'Experience The Art of Storytelling'
         }
@@ -38,7 +38,7 @@ const HeroSlider = () => {
     };
 
     return (
-        <div className="relative h-screen overflow-hidden">
+        <div className="relative h-[150vh] overflow-hidden">
             {slides.map((slide, index) => (
                 <div
                     key={slide.id}
@@ -85,10 +85,6 @@ const HeroSlider = () => {
                 </div>
             </div>
 
-            <div className="absolute bottom-4 right-4 z-20 text-white text-sm opacity-60">
-                <p>Activate Windows</p>
-                <p className="text-xs">Go to Settings to activate Windows</p>
-            </div>
         </div>
     );
 };
@@ -98,7 +94,7 @@ const HeroSection = () => {
     return (
         <div className="min-h-screen">
             <HeroSlider />
-            <img src="/images/trust.PNG" className='w-full' alt="trust section" />
+            {/* <img src="/images/trust.PNG" className='w-full' alt="trust section" /> */}
         </div>
     );
 };

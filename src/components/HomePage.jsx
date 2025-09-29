@@ -11,13 +11,13 @@ function HomePage() {
     return (
         <>
             <HeroSection />
-            <UpcomingMovies />
+            {/* <UpcomingMovies />
             <FeaturedWork />
             <History />
             <VideoSection />
             <DirectorsPage />
             <Testimonial />
-            <BlogSection />
+            <BlogSection /> */}
         </>
     )
 }

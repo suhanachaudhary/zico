@@ -3,12 +3,12 @@ export default function BharatLandPage() {
     const landImages = [
         "/images/pages/Pages/land/land1.PNG",
         "/images/pages/Pages/land/land2.PNG",
-        "/images/pages/Pages/land/land3.JPG",
+        // "/images/pages/Pages/land/land3.JPG",
     ];
 
     return (
-        <div className="min-h-screen bg-gradient-to-b from-[#070707] via-[#0b0b0b] to-[#111] text-white py-36 px-6">
-            <div className="max-w-6xl mx-auto">
+        <div className="min-h-screen bg-gradient-to-b from-[#070707] via-[#0b0b0b] to-[#111] text-white py-36">
+            <div className="max-w-9xl mx-auto">
 
                 <div className="text-center mb-16">
                     <h1 className="text-4xl md:text-5xl font-extrabold uppercase tracking-wide">
@@ -19,7 +19,11 @@ export default function BharatLandPage() {
                     </p>
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-16">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 gap-6 mb-16">
+                    <img className="w-full h-full object-cover hover:opacity-90 transition" src="/images/pages/Pages/land/land3.JPG" />
+                </div>
+
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6 mb-16 px-6">
                     {landImages.map((src, index) => (
                         <div
                             key={index}
@@ -28,7 +32,7 @@ export default function BharatLandPage() {
                             <img
                                 src={src}
                                 alt={`Land ${index + 1}`}
-                                className="w-full h-72 object-cover hover:opacity-90 transition"
+                                className="w-full h-230 object-cover hover:opacity-90 transition"
                             />
                         </div>
                     ))}

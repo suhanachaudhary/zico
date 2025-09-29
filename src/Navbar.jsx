@@ -26,16 +26,16 @@ const Navbar = () => {
         ${scrolled ? "bg-black" : "bg-black/40 backdrop-blur-sm"}`}
         >
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="flex items-center justify-between h-16">
+                <div className="flex items-center justify-between h-18">
 
-                    <div className="flex items-center">
+                    <div className="flex items-center py-2">
                         <div className="flex items-center space-x-1">
-                            <img className="h-22 w-22" src="/images/logo1.png" alt="logo" />
+                            <img className="md:h-22 md:w-22 h-18" src="/images/logo1.png" alt="logo" />
                             <span
                                 className="text-xl text-[#D39D55]"
                                 style={{ marginLeft: "-15px" }}
                             >
-                                Hastinapur Studio
+                                Hastinapur Studios
                             </span>
                         </div>
                     </div>

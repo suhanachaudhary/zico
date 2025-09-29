@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+.fpara {
+    margin-right: 300px;
+}
+
+@media(width:400px) {
+    .fpara {
+        margin: 0;
+    }
+}

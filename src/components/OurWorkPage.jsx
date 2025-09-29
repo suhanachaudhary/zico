@@ -43,15 +43,15 @@ const OurWorkPage = () => {
                     "/images/work/work/w1.png",
                     "/images/work/work/w3.PNG",
                     "/images/work/work/w2.PNG",
-                    "/images/work/work/w4.PNG",
-                    "/images/work/work/w5.PNG",
-                    "/images/work/work/w6.PNG",
+                    // "/images/work/work/w4.PNG",
+                    // "/images/work/work/w5.PNG",
+                    // "/images/work/work/w6.PNG",
                     "/images/work/work/w7.PNG",
                     "/images/work/work/w8.PNG",
                     "/images/work/work/w9.PNG"
                 ].map((src, index) => (
                     <div key={index} className="overflow-hidden rounded-xl shadow-md hover:scale-105 transition-transform duration-300">
-                        <img src={src} alt={`Work ${index + 1}`} className="w-full h-64 object-cover" />
+                        <img src={src} alt={`Work ${index + 1}`} className="w-full h-120 object-cover" />
                     </div>
                 ))}
             </div>
@@ -88,11 +88,11 @@ const OurWorkPage = () => {
 
             <div className="text-center mt-8 max-w-4xl mx-auto">
                 <h2 className="text-2xl md:text-3xl font-semibold mb-4 italic">"From imagination to screen, from heritage to global stories—we bring every vision to life."</h2>
-                <p className="text-gray-400 mb-4 text-lg">Know more:</p>
+                {/* <p className="text-gray-400 mb-4 text-lg">Know more:</p>
                 <p className="text-gray-300 text-lg">Address: H-10, Raghav Puram, Saharanpur, 247001, India</p>
                 <p className="text-gray-300 text-lg">Phone: +91 9286182820 / +44 7879953499 (WhatsApp)</p>
                 <p className="text-gray-300 text-lg">Emails: <a href="mailto:Hastinapurstudio@gmail.com" className="text-[#D39D55] hover:underline">Hastinapurstudio@gmail.com</a> / <a href="mailto:akaniket10@gmail.com" className="text-[#D39D55] hover:underline">akaniket10@gmail.com</a></p>
-                <p className="text-gray-300 text-lg">LinkedIn: <a href="https://linkedin.com/in/aniket10021" target="_blank" rel="noopener noreferrer" className="text-[#D39D55] hover:underline">linkedin.com/in/aniket10021</a></p>
+                <p className="text-gray-300 text-lg">LinkedIn: <a href="https://linkedin.com/in/aniket10021" target="_blank" rel="noopener noreferrer" className="text-[#D39D55] hover:underline">linkedin.com/in/aniket10021</a></p> */}
             </div>
         </div>
     );
