@@ -9,7 +9,7 @@ const HeroSlider = () => {
             id: 1,
             image: '/images/home/Home/h4.JPG',
             title: 'GET THE BEST MOVIES HERE',
-            subtitle: 'Zico Is High Quality Production House'
+            subtitle: 'Hastinapur Studios Is High Quality Production House'
         },
         {
             id: 2,

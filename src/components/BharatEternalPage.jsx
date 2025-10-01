@@ -30,15 +30,14 @@ export default function BharatEternalPage() {
                             <img
                                 src={src}
                                 alt={`Eternal ${index + 1}`}
-                                className="w-full h-72 object-cover hover:opacity-90 transition"
+                                className="w-full h-82 object-cover hover:opacity-90 transition"
                             />
                         </div>
                     ))}
                 </div>
-
                 <div className="prose prose-invert text-[16px] max-w-none text-gray-200 bg-black/50 p-10 rounded-2xl border border-white/10 shadow-xl space-y-6 leading-relaxed">
-                    <p className="text-lg">
-                        Bharat, known today as India, is not just a nation—it is the world’s oldest living civilization, a land where time itself learned to tell stories. For thousands of years, this sacred land has been the cradle of culture, tradition, religion, philosophy, and art that continue to inspire the world.
+                    <h1 className="text-[#D39D55] text-3xl font-semibold mb-3">Bharat, known today as India, is not just a nation</h1>
+                    <p className="text-lg">It is the world’s oldest living civilization, a land where time itself learned to tell stories. For thousands of years, this sacred land has been the cradle of culture, tradition, religion, philosophy, and art that continue to inspire the world.
                     </p>
                     <p className="text-lg">
                         It is the land of the oldest languages—Sanskrit and Tamil—voices that gave rise to timeless wisdom and poetry. From the Vedas, Upanishads, the Bhagavad Gita, and the Ramayana, to the Tamil Sangam literature, Bharat has gifted humanity the very foundation of thought, spirituality, and storytelling.

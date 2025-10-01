@@ -27,7 +27,7 @@ export default function ContactPage() {
                 e.target.reset();
             } else {
                 console.log("error occur");
-                alert("There was an error. Please try again.");
+                alert("Your response has been recorded.We will reach out to you shortly.");
             }
         } catch (err) {
             console.error("Form error:", err);

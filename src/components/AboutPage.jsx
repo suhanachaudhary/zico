@@ -75,7 +75,7 @@ export default function AboutPage() {
                             <img
                                 src={src}
                                 alt={`About ${index + 1}`}
-                                className="w-full h-64 object-cover hover:opacity-90 transition"
+                                className="w-full h-78 object-cover hover:opacity-90 transition"
                             />
                         </div>
                     ))}
