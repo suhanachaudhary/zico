@@ -73,12 +73,14 @@ const Navbar = () => {
                                 {isDropdownOpen && (
                                     <div className="absolute left-0 mt-2 w-60 bg-[#111] bg-opacity-90 rounded-lg shadow-lg">
                                         <Link
+                                            onClick={() => setIsDropdownOpen(false)}
                                             to="/page1"
                                             className="block px-4 py-2 text-white hover:bg-gray-700"
                                         >
                                             Bharat - The Eternal Civilization
                                         </Link>
                                         <Link
+                                            onClick={() => setIsDropdownOpen(false)}
                                             to="/page2"
                                             className="block px-4 py-2 text-white hover:bg-gray-700"
                                         >
@@ -159,12 +161,14 @@ const Navbar = () => {
                         {isDropdownOpen && (
                             <div className="pl-6">
                                 <Link
+                                    onClick={() => setIsDropdownOpen(false)}
                                     to="/page1"
                                     className="block text-white hover:text-gray-300 px-3 py-2 text-md"
                                 >
                                     Bharat - The Eternal Civilization
                                 </Link>
                                 <Link
+                                    onClick={() => setIsDropdownOpen(false)}
                                     to="/page2"
                                     className="block text-white hover:text-gray-300 px-3 py-2 text-md"
                                 >
